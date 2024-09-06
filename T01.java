@@ -1,21 +1,9 @@
 // 12S24017 Arya Sinambela
 // 12S24057 Laura Sirumapea
-
 import java.util.*;
 import java.lang.Math;
 
 public class T01 {
-    private static Scanner input = new Scanner(System.in);
-
-    import java.util.*;
-import java.lang.Math;
-
-public class Program {
-    private static Scanner input = new Scanner(System.in);
-import java.util.*;
-import java.lang.Math;
-
-public class Program {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -30,18 +18,13 @@ public class Program {
         isbn = input.nextLine();
         judul = input.nextLine();
         penulis = input.nextLine();
-        tahunterbit = input.nextInt();
+        tahunterbit = Integer.parseInt(input.nextLine());
         penerbit = input.nextLine();
         formatbuku = input.nextLine();
-        hargabeli = input.nextDouble();
-        minimummargin = input.nextDouble();
-        stok = input.nextInt();
-        rating = input.nextDouble();
+        hargabeli = Double.parseDouble(input.nextLine());
+        minimummargin = Double.parseDouble(input.nextLine());
+        stok = Integer.parseInt(input.nextLine());
+        rating = Double.parseDouble(input.nextLine());
         System.out.println(isbn + "|" + judul + "|" + penulis + "|" + tahunterbit + "|" + penerbit + "|" + formatbuku + "|" + hargabeli + "|" + minimummargin + "|" + stok + "|" + rating);
     }
 }
-
-}
-
-}
-
