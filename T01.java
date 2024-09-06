@@ -4,7 +4,13 @@
 import java.util.*;
 import java.lang.Math;
 
-public class T01{
+public class T01 {
+    private static Scanner input = new Scanner(System.in);
+
+    import java.util.*;
+import java.lang.Math;
+
+public class Program {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -28,5 +34,7 @@ public class T01{
         rating = input.nextDouble();
         System.out.println(isbn + "|" + judul + "|" + penulis + "|" + tahunterbit + "|" + penerbit + "|" + formatbuku + "|" + hargabeli + "|" + minimummargin + "|" + stok + "|" + rating);
     }
+}
+
 }
 
